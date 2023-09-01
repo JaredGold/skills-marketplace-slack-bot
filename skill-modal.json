@@ -1,0 +1,79 @@
+{
+  "type": "modal",
+  "callback_id": "SKILL_MODAL",
+  "title": {
+    "type": "plain_text",
+    "text": "Skill Selector"
+  },
+  "submit": {
+    "type": "plain_text",
+    "text": "Save"
+  },
+  "blocks": [
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Please select all skills then press submit.",
+          "emoji": true
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "element": {
+        "type": "multi_static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Select skills",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "JavaScript",
+              "emoji": true
+            },
+            "value": "javascript"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Go-lang",
+              "emoji": true
+            },
+            "value": "go"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Python",
+              "emoji": true
+            },
+            "value": "python"
+          }
+        ],
+        "action_id": "multi_static_select-action"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Skills",
+        "emoji": true
+      }
+    },
+    {
+      "type": "input",
+      "element": {
+        "type": "plain_text_input",
+        "action_id": "plain_text_input-action"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Other Skills",
+        "emoji": true
+      }
+    }
+  ]
+}

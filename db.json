@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "keyword": "wifi",
+      "question": "What is the office wifi password?",
+      "answer": "Lexicon455Bourke123!"
+    },
+    {
+      "keyword": "clients",
+      "question": "Who are our main clients in the APAC region?",
+      "answer": "Our 2 major clients are IAG and Insignia."
+    },
+    {
+      "keyword": "time-card",
+      "question": "Where do I go to log my hours?",
+      "answer": "https://oracle.endava.com/"
+    }
+  ]
+}
